@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mensaje agradecimiento</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <h1>
-        Gracias por rellenar el formulario
-    </h1>
-    
+    <p class="agradecimiento">
+        Gracias por rellenar el formulario, tus datos han sido procesados.
+    </p>
+    <!-- para que luego de mostrar el mensaje vuelva al index-->
     <script>
-        setTimeout(function){
-            window.locationreplace("index.html");
-        }, 2000;
+        setTimeout(function(){
+            window.location.replace("index.html");
+        }, 2000);
     </script>
 </body>
 </html>

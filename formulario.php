@@ -12,6 +12,8 @@ $mensaje = "El formulario fue rellenado por: ".$nombre . " \r\n" .
     "El email es: ".$email . ",\r\n";
 $mensaje .= "El mensaje que envio dice: ".$_POST['textArea']."\r\n";
 
+echo $mensaje;
+
 //Redireccion cuando se rellena el form
 header('Location:mensaje.html');
 
