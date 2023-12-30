@@ -1,5 +1,5 @@
 <?php
-//variables para que se guarden los datos del imput del formulario
+//variables para que se guarden los datos del input del formulario
 $nombre = $_POST['name'];
 $usuario =$_POST['usuario'];
 $email =$_POST['email'];
