@@ -13,7 +13,7 @@ if($_SERVER["REQUEST_METOD"] == "POST"){
 $_SESSION["usuario"] = $usuario;
 
 //creo variable mensaje que incluya el mensaje que se imprimira por pantalla
-$mensaje = "La sesionn fue iniciada por el usuario: ".$usuario . " <br>" .
+$mensaje = "La sesion fue iniciada por el usuario: ".$usuario . " <br>" .
     "Con el password: " . $password."  <br>".
     "El email: ".$email . " <br>";
 echo $mensaje;
